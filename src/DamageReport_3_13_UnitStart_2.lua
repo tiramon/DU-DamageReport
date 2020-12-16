@@ -393,7 +393,7 @@ function UpdateTypeData()
         local cMass = 0
         local cVol = 0
 
-        if idType == "atmospheric fuel-tank" then
+        if idType == "Atmospheric Fuel Tank" then
             if idMaxHP > 10000 then 
                 baseSize = "L"
                 baseMass = 5480
@@ -435,7 +435,7 @@ function UpdateTypeData()
                 FuelAtmosphericCurrent = FuelAtmosphericCurrent + cVol
             end
             FuelAtmosphericTotal = FuelAtmosphericTotal + baseVol
-        elseif idType == "space fuel-tank" then
+        elseif idType == "Space Fuel Tank" then
             if idMaxHP > 10000 then
                 baseSize = "L"
                 baseMass = 5480
@@ -473,7 +473,7 @@ function UpdateTypeData()
                 FuelSpaceCurrent = FuelSpaceCurrent + cVol
             end
             FuelSpaceTotal = FuelSpaceTotal + baseVol
-        elseif idType == "rocket fuel-tank" then
+        elseif idType == "Rocket Fuel Tank" then
             if idMaxHP > 65000 then 
                 baseSize = "L"
                 baseMass = 25740
@@ -632,9 +632,9 @@ function UpdateDamageData(initial)
 
         if initial == true then
             if
-                idType == "atmospheric fuel-tank" or
-                idType == "space fuel-tank" or
-                idType == "rocket fuel-tank" 
+                idType == "Atmospheric Fuel Tank" or
+                idType == "Space Fuel Tank" or
+                idType == "Rocket Fuel Tank" 
             then
                table.insert(typeElements, id)
             end
