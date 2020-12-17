@@ -1,5 +1,5 @@
 --[[
-    Damage Report 3.13
+    Damage Report 3.13.1
     A LUA script for Dual Universe
 
     Created By Dorian Gray
