@@ -6,6 +6,11 @@
     Ingame: DorianGray
     Discord: Dorian Gray#2623
 
+    Fix By Tiramon 3.13.1+ 
+    Ingame: Tiramon
+    Discord: Tiramon#8218
+
+
     You can find/update this script on GitHub. Explanations, installation and usage information as well as screenshots can be found there too.
     GitHub: https://github.com/DorianTheGrey/DU-DamageReport
 
