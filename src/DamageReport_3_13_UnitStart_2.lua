@@ -1,10 +1,14 @@
 --[[
-    Damage Report 3.13
+    Damage Report 3.13-1
     A LUA script for Dual Universe
 
     Created By Dorian Gray
     Ingame: DorianGray
     Discord: Dorian Gray#2623
+
+    Fix By Tiramon 3.13.1+ 
+    Ingame: Tiramon
+    Discord: Tiramon#8218
 
     You can find/update this script on GitHub. Explanations, installation and usage information as well as screenshots can be found there too.
     GitHub: https://github.com/DorianTheGrey/DU-DamageReport
@@ -58,7 +62,7 @@ ColorFuelAtmospheric = "004444" -- Enter the hexcode of the atmospheric fuel col
 ColorFuelSpace = "444400" -- Enter the hexcode of the space fuel color.
 ColorFuelRocket = "440044" -- Enter the hexcode of the rocket fuel color.
 
-VERSION = 3.13
+VERSION = 3.13.1
 DebugMode = false
 DebugRenderClickareas = true
 
